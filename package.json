@@ -1,7 +1,7 @@
 {
   "name": "sourcemapify",
   "version": "1.0.1",
-  "description": "SourceMap plugin for Browserify",
+  "description": "Source Map plugin for Browserify",
   "keywords": [
     "browserify",
     "browserify-plugin",
@@ -11,7 +11,7 @@
   ],
   "author": {
     "name": "James Messinger",
-    "url": "https://github.com/BigstickCarpet"
+    "url": "http://jamesmessinger.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/BigstickCarpet/sourcemapify",

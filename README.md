@@ -12,6 +12,12 @@ The default sourcemap that Browserify generates uses paths that are relative to 
 This plugin was inspired by [browserify-sourcemap-root-transform](https://github.com/blackberry/browserify-sourcemap-root-transform), so check that one out if this one doesn't meet your needs.
 
 
+Related Projects
+--------------------------
+* [simplifyify](https://www.npmjs.com/package/simplifyify) - A simplified Browserify and Watchify CLI
+* [globify](https://www.npmjs.com/package/globify) - Run browserify and watchify with globs - even on Windows
+
+
 Installation
 --------------------------
 Install using [npm](https://docs.npmjs.com/getting-started/what-is-npm):
