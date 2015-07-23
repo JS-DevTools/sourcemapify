@@ -1,6 +1,6 @@
 {
   "name": "sourcemapify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Source Map plugin for Browserify",
   "keywords": [
     "browserify",
@@ -21,6 +21,7 @@
     "upgrade": "npm-check-updates -u && npm update",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm run build && npm test && npm run bump && npm publish",
+    "test": "npm run test-api",
     "test-cli": "browserify test/lib/index.js -p [ sourcemapify --root \"../../\" ] --debug -o test/www/js/bundle.js",
     "test-api": "node test/api.js",
     "test-default": "browserify test/lib/index.js --debug -o test/www/js/bundle.js"
@@ -34,7 +35,7 @@
     "jshint": "^2.8.0",
     "npm-check-updates": "^1.5.1",
     "version-bump-prompt": "^1.4.1",
-    "browserify": "^10.2.6"
+    "browserify": "^11.0.0"
   },
   "dependencies": {
     "through": "^2.3.8"
