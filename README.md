@@ -2,7 +2,7 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Dependencies](https://img.shields.io/david/BigstickCarpet/sourcemapify.svg)](https://david-dm.org/BigstickCarpet/sourcemapify)
+[![Dependencies](https://david-dm.org/BigstickCarpet/sourcemapify.svg)](https://david-dm.org/BigstickCarpet/sourcemapify)
 [![npm](http://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
 [![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
 
