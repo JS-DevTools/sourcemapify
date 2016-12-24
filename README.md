@@ -2,6 +2,7 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/app/jamesmessinger/sourcemapify?utm_source=github.com&utm_medium=referral&utm_content=BigstickCarpet/sourcemapify&utm_campaign=badger)
 [![Dependencies](https://david-dm.org/BigstickCarpet/sourcemapify.svg)](https://david-dm.org/BigstickCarpet/sourcemapify)
 [![npm](http://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
 [![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
