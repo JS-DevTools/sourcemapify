@@ -13,9 +13,9 @@ paths.mapFile = path.join(paths.dist, 'bundle.js.map');
 
 if (fs.existsSync('node_modules/browser-pack')) {
   // NPM 3.0 installs all dependencies directly under "node_modules"
-  paths.prelude = 'node_modules/browser-pack/_prelude.js';
+  paths.preludeFile = 'node_modules/browser-pack/_prelude.js';
 }
 else {
   // NPM 2.0 installs dependencies under their parent module
-  paths.prelude = 'node_modules/browserify/node_modules/browser-pack/_prelude.js';
+  paths.preludeFile = 'node_modules/browserify/node_modules/browser-pack/_prelude.js';
 }

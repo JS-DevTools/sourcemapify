@@ -20,7 +20,7 @@ describe('Default Browserify behavior', () => {
         // By default, Browserify's sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'test/test-app/lib/foo.js',
           'test/test-app/lib/index.js',
           'test/test-app/lib/subdir/foo.js',

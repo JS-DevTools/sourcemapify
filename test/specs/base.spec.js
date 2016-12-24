@@ -23,7 +23,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `base` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'test/test-app/lib/foo.js',
           'test/test-app/lib/index.js',
           'test/test-app/lib/subdir/foo.js',
@@ -49,7 +49,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `base` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'test/test-app/lib/foo.js',
           'test/test-app/lib/index.js',
           'test/test-app/lib/subdir/foo.js',
@@ -77,7 +77,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `root` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           `${parentDir}/test/test-app/lib/foo.js`,
           `${parentDir}/test/test-app/lib/index.js`,
           `${parentDir}/test/test-app/lib/subdir/foo.js`,
@@ -103,7 +103,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `root` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'lib/foo.js',
           'lib/index.js',
           'lib/subdir/foo.js',
@@ -131,7 +131,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `root` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'test-app/lib/foo.js',
           'test-app/lib/index.js',
           'test-app/lib/subdir/foo.js',
@@ -157,7 +157,7 @@ describe('Sourcemapify with "base" option', () => {
         // Because `root` was an empty string, the sourcemap uses paths that
         // are relative to the current directory
         sourcemap.sources.should.deep.equal([
-          'node_modules/browser-pack/_prelude.js',
+          paths.preludeFile,
           'http://mysite.com/src/foo.js',
           'http://mysite.com/src/index.js',
           'http://mysite.com/src/subdir/foo.js',
