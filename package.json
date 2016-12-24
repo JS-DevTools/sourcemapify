@@ -20,7 +20,7 @@
     "lib"
   ],
   "scripts": {
-    "lint": "eslint lib test --fix",
+    "lint": "eslint lib test/fixtures test/specs --fix",
     "test": "mocha",
     "cover": "istanbul cover _mocha",
     "upgrade": "npm-check -u",
