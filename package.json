@@ -22,6 +22,7 @@
   "scripts": {
     "lint": "eslint lib test --fix",
     "test": "mocha",
+    "cover": "istanbul cover _mocha",
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm run lint && npm run test && npm run bump && npm publish"
@@ -33,10 +34,13 @@
   "devDependencies": {
     "browserify": "^11.0.1",
     "chai": "^3.5.0",
+    "codacy-coverage": "^2.0.0",
+    "coveralls": "^2.11.15",
     "del": "^2.2.2",
     "eslint": "^3.9.0",
     "eslint-config-modular": "^1.0.1",
     "exorcist": "^0.4.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
     "npm-check": "^5.4.0",
     "npm-check-updates": "^2.2.0",
