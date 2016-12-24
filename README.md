@@ -2,7 +2,13 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
+[![Build Status](https://api.travis-ci.org/BigstickCarpet/sourcemapify.svg?branch=master)](https://travis-ci.org/BigstickCarpet/sourcemapify)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/38750u63xf892ri5/branch/master?svg=true&failingText=Windows%20build%20failing&passingText=Windows%20build%20passing)](https://ci.appveyor.com/project/BigstickCarpet/sourcemapify/branch/master)
 [![Dependencies](https://david-dm.org/BigstickCarpet/sourcemapify.svg)](https://david-dm.org/BigstickCarpet/sourcemapify)
+[![Coverage Status](https://coveralls.io/repos/github/BigstickCarpet/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/BigstickCarpet/sourcemapify?branch=master)
+[![Codacy Score](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/public/jamesmessinger/sourcemapify)
+[![Inline docs](http://inch-ci.org/github/BigstickCarpet/sourcemapify.svg?branch=master&style=shields)](http://inch-ci.org/github/BigstickCarpet/sourcemapify)
+
 [![npm](http://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
 [![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
 
@@ -53,7 +59,7 @@ browserify({debug: true})
 
 Options
 --------------------------
-There's only a couple options right now, but I plan to add more in the future.
+The following options can be set via the API or command-line:
 
 #### `root` (string)
 The root path for all files in the source map. It can be an absolute or relative path. This string will be prepended as-is to each file path.
