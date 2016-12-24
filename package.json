@@ -33,9 +33,10 @@
   "devDependencies": {
     "browserify": "^11.0.1",
     "chai": "^3.5.0",
-    "exorcist": "^0.4.0",
+    "del": "^2.2.2",
     "eslint": "^3.9.0",
     "eslint-config-modular": "^1.0.1",
+    "exorcist": "^0.4.0",
     "mocha": "^3.1.2",
     "npm-check": "^5.4.0",
     "npm-check-updates": "^2.2.0",
