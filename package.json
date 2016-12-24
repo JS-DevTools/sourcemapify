@@ -16,27 +16,30 @@
   "license": "MIT",
   "homepage": "https://github.com/BigstickCarpet/sourcemapify",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "lint": "jshint . --verbose && jscs . --verbose",
-    "build": "npm run lint",
-    "upgrade": "ncu --upgradeAll && npm update",
+    "lint": "eslint lib test --fix",
+    "test": "mocha",
+    "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
-    "test": "npm run test-api",
-    "test-cli": "browserify test/lib/index.js -p [ sourcemapify --root \"../../\" ] --debug -o test/www/js/bundle.js",
-    "test-api": "node test/api.js",
-    "test-default": "browserify test/lib/index.js --debug -o test/www/js/bundle.js",
-    "release": "npm run upgrade && npm run build && npm run bump && npm publish"
+    "release": "npm run upgrade && npm run lint && npm run test && npm run bump && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BigstickCarpet/sourcemapify.git"
   },
   "devDependencies": {
-    "jscs": "^2.0.0",
-    "jshint": "^2.8.0",
+    "browserify": "^11.0.1",
+    "chai": "^3.5.0",
+    "exorcist": "^0.4.0",
+    "eslint": "^3.9.0",
+    "eslint-config-modular": "^1.0.1",
+    "mocha": "^3.1.2",
+    "npm-check": "^5.4.0",
     "npm-check-updates": "^2.2.0",
-    "version-bump-prompt": "^1.5.0",
-    "browserify": "^11.0.1"
+    "version-bump-prompt": "^1.5.0"
   },
   "dependencies": {
     "through": "^2.3.8"
