@@ -48,5 +48,8 @@
   },
   "dependencies": {
     "through": "^2.3.8"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }
