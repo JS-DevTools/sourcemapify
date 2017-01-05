@@ -32,19 +32,19 @@
     "url": "https://github.com/BigstickCarpet/sourcemapify.git"
   },
   "devDependencies": {
-    "browserify": "^13.1.1",
+    "browserify": "^13.3.0",
     "chai": "^3.5.0",
     "codacy-coverage": "^2.0.0",
     "coveralls": "^2.11.15",
     "del": "^2.2.2",
     "eslint": "^3.9.0",
-    "eslint-config-modular": "^1.0.1",
+    "eslint-config-modular": "^2.0.1",
     "exorcist": "^0.4.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
     "npm-check": "^5.4.0",
     "npm-check-updates": "^2.2.0",
-    "version-bump-prompt": "^2.0.0"
+    "version-bump-prompt": "^3.0.0"
   },
   "dependencies": {
     "through": "^2.3.8"
