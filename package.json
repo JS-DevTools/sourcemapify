@@ -21,11 +21,11 @@
   ],
   "scripts": {
     "lint": "eslint lib test/fixtures test/specs --fix",
-    "test": "mocha",
+    "test": "mocha && npm run lint",
     "cover": "istanbul cover _mocha",
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
-    "release": "npm run upgrade && npm run lint && npm run test && npm run bump && npm publish"
+    "release": "npm run upgrade && npm run test && npm run bump && npm publish"
   },
   "repository": {
     "type": "git",
