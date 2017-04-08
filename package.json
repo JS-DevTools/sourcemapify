@@ -13,8 +13,12 @@
     "name": "James Messinger",
     "url": "http://jamesmessinger.com"
   },
-  "license": "MIT",
   "homepage": "https://github.com/BigstickCarpet/sourcemapify",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigstickCarpet/sourcemapify.git"
+  },
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -26,10 +30,6 @@
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm run test && npm run bump && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BigstickCarpet/sourcemapify.git"
   },
   "devDependencies": {
     "browserify": "^13.3.0",
