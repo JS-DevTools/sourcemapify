@@ -32,13 +32,13 @@
     "release": "npm run upgrade && npm run test && npm run bump && npm publish"
   },
   "devDependencies": {
-    "browserify": "^13.3.0",
-    "chai": "^3.5.0",
+    "browserify": "^14.4.0",
+    "chai": "^4.0.1",
     "codacy-coverage": "^2.0.0",
     "coveralls": "^2.11.15",
     "del": "^2.2.2",
     "eslint": "^3.9.0",
-    "eslint-config-modular": "^2.0.1",
+    "eslint-config-modular": "^4.0.0",
     "exorcist": "^0.4.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
