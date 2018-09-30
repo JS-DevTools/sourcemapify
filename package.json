@@ -11,13 +11,13 @@
   ],
   "author": {
     "name": "James Messinger",
-    "url": "http://bigstickcarpet.com"
+    "url": "https://jamesmessinger.com"
   },
-  "homepage": "https://github.com/BigstickCarpet/sourcemapify",
+  "homepage": "https://github.com/James-Messinger/sourcemapify",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BigstickCarpet/sourcemapify.git"
+    "url": "https://github.com/James-Messinger/sourcemapify.git"
   },
   "main": "lib/index.js",
   "files": [
