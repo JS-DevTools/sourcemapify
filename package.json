@@ -26,7 +26,7 @@
   "scripts": {
     "lint": "eslint lib test/fixtures test/specs --fix",
     "test": "mocha && npm run lint",
-    "cover": "istanbul cover _mocha",
+    "coverage": "nyc --reporter=text --reporter=lcov mocha",
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm run test && npm run bump && npm publish"
@@ -40,10 +40,10 @@
     "eslint": "^5.6.1",
     "eslint-config-modular": "^4.2.1",
     "exorcist": "^1.0.0",
-    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "npm-check": "^5.9.0",
     "npm-check-updates": "^2.14.2",
+    "nyc": "^13.0.1",
     "version-bump-prompt": "^4.2.0"
   },
   "dependencies": {
