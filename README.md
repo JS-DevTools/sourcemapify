@@ -7,10 +7,10 @@ sourcemapify
 
 [![Coverage Status](https://coveralls.io/repos/github/James-Messinger/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/James-Messinger/sourcemapify?branch=master)
 [![Codacy Score](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/public/jamesmessinger/sourcemapify)
-[![Inline docs](http://inch-ci.org/github/James-Messinger/sourcemapify.svg?branch=master&style=shields)](http://inch-ci.org/github/James-Messinger/sourcemapify)
+[![Inline docs](https://inch-ci.org/github/James-Messinger/sourcemapify.svg?branch=master&style=shields)](https://inch-ci.org/github/James-Messinger/sourcemapify)
 [![Dependencies](https://david-dm.org/James-Messinger/sourcemapify.svg)](https://david-dm.org/James-Messinger/sourcemapify)
 
-[![npm](http://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
+[![npm](https://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
 [![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
 
 
