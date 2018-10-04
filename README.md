@@ -2,13 +2,13 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Build Status](https://api.travis-ci.org/James-Messinger/sourcemapify.svg?branch=master)](https://travis-ci.org/James-Messinger/sourcemapify)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/james-messinger/sourcemapify?svg=true&branch=master&failingText=Windows%20build%20failing&passingText=Windows%20build%20passing)](https://ci.appveyor.com/project/BigstickCarpet/sourcemapify/branch/master)
+[![Build Status](https://api.travis-ci.org/JS-DevTools/sourcemapify.svg?branch=master)](https://travis-ci.org/JS-DevTools/sourcemapify)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/JS-DevTools/sourcemapify?svg=true&branch=master&failingText=Windows%20build%20failing&passingText=Windows%20build%20passing)](https://ci.appveyor.com/project/JamesMessinger/sourcemapify/branch/master)
 
-[![Coverage Status](https://coveralls.io/repos/github/James-Messinger/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/James-Messinger/sourcemapify?branch=master)
-[![Codacy Score](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/public/jamesmessinger/sourcemapify)
-[![Inline docs](https://inch-ci.org/github/James-Messinger/sourcemapify.svg?branch=master&style=shields)](https://inch-ci.org/github/James-Messinger/sourcemapify)
-[![Dependencies](https://david-dm.org/James-Messinger/sourcemapify.svg)](https://david-dm.org/James-Messinger/sourcemapify)
+[![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
+[![Codacy Score](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/public/JamesMessinger/sourcemapify)
+[![Inline docs](https://inch-ci.org/github/JS-DevTools/sourcemapify.svg?branch=master&style=shields)](https://inch-ci.org/github/JS-DevTools/sourcemapify)
+[![Dependencies](https://david-dm.org/JS-DevTools/sourcemapify.svg)](https://david-dm.org/JS-DevTools/sourcemapify)
 
 [![npm](https://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
 [![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
@@ -72,13 +72,13 @@ The base path of the bundle (i.e. the bundle file's directory, relative to cwd).
 
 Contributing
 --------------------------
-I welcome any contributions, enhancements, and bug-fixes.  [File an issue](https://github.com/James-Messinger/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/James-Messinger/sourcemapify/pulls).
+I welcome any contributions, enhancements, and bug-fixes.  [File an issue](https://github.com/JS-DevTools/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/sourcemapify/pulls).
 
 #### Building
 To build the project locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/James-Messinger/sourcemapify.git`
+`git clone https://github.com/JS-DevTools/sourcemapify.git`
 
 2. __Install dependencies__<br>
 `npm install`

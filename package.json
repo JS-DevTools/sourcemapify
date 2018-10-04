@@ -13,11 +13,11 @@
     "name": "James Messinger",
     "url": "https://jamesmessinger.com"
   },
-  "homepage": "https://github.com/James-Messinger/sourcemapify",
+  "homepage": "https://github.com/JS-DevTools/sourcemapify",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/James-Messinger/sourcemapify.git"
+    "url": "https://github.com/JS-DevTools/sourcemapify.git"
   },
   "main": "lib/index.js",
   "files": [
