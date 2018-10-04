@@ -1,6 +1,6 @@
 {
   "name": "sourcemapify",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Source Map plugin for Browserify",
   "keywords": [
     "browserify",
