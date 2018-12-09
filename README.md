@@ -6,8 +6,6 @@ sourcemapify
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/JS-DevTools/sourcemapify?svg=true&branch=master&failingText=Windows%20build%20failing&passingText=Windows%20build%20passing)](https://ci.appveyor.com/project/JamesMessinger/sourcemapify/branch/master)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
-[![Codacy Score](https://api.codacy.com/project/badge/Grade/3c64907c5b3844a18058c8e021a78181)](https://www.codacy.com/public/JamesMessinger/sourcemapify)
-[![Inline docs](https://inch-ci.org/github/JS-DevTools/sourcemapify.svg?branch=master&style=shields)](https://inch-ci.org/github/JS-DevTools/sourcemapify)
 [![Dependencies](https://david-dm.org/JS-DevTools/sourcemapify.svg)](https://david-dm.org/JS-DevTools/sourcemapify)
 
 [![npm](https://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
@@ -95,4 +93,3 @@ To build the project locally on your computer:
 License
 --------------------------
 sourcemapify is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
-
