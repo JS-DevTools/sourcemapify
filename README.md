@@ -2,7 +2,7 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Cross-Platform Compatibility](https://jsdevtools.org/img/os-badges.svg)](https://travis-ci.com/JS-DevTools/sourcemapify)
+[![Cross-Platform Compatibility](https://jsdevtools.org/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/sourcemapify)
 [![Build Status](https://api.travis-ci.com/JS-DevTools/sourcemapify.svg?branch=master)](https://travis-ci.com/JS-DevTools/sourcemapify)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
@@ -70,7 +70,7 @@ The base path of the bundle (i.e. the bundle file's directory, relative to cwd).
 
 Contributing
 --------------------------
-I welcome any contributions, enhancements, and bug-fixes.  [File an issue](https://github.com/JS-DevTools/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/sourcemapify/pulls).
+Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/JS-DevTools/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/sourcemapify/pulls).
 
 #### Building
 To build the project locally on your computer:
@@ -93,3 +93,12 @@ To build the project locally on your computer:
 License
 --------------------------
 sourcemapify is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+
+
+Big Thanks To
+--------------------------
+Thanks to these awesome companies for their support of Open Source developers ❤
+
+[![Travis CI](https://jsdevtools.org/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://jsdevtools.org/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://jsdevtools.org/img/badges/coveralls.svg)](https://coveralls.io)
