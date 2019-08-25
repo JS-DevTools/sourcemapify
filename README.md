@@ -2,7 +2,7 @@ sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Cross-Platform Compatibility](https://jsdevtools.org/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/sourcemapify)
+[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/sourcemapify)
 [![Build Status](https://api.travis-ci.com/JS-DevTools/sourcemapify.svg?branch=master)](https://travis-ci.com/JS-DevTools/sourcemapify)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
@@ -19,14 +19,20 @@ This plugin was inspired by [browserify-sourcemap-root-transform](https://github
 
 Related Projects
 --------------------------
-* [simplifyify](https://www.npmjs.com/package/simplifyify) - A simplified Browserify and Watchify CLI
-* [globify](https://www.npmjs.com/package/globify) - Run browserify and watchify with globs - even on Windows
-* [browserify-banner](https://www.npmjs.com/package/browserify-banner) - Add a comment (and/or code) to the top of your Browserify bundle
+- [simplifyify](https://jstools.dev/simplifyify)<br>
+  A simplified Browserify and Watchify CLI
+
+- [globify](https://jstools.dev/globify)<br>
+  Run browserify and watchify with globs - even on Windows
+
+- [browserify-banner](https://jstools.dev/browserify-banner)<br>
+  Add a comment (and/or code) to the top of your Browserify bundle
+
 
 
 Installation
 --------------------------
-Install using [npm](https://docs.npmjs.com/getting-started/what-is-npm):
+Install using [npm](https://docs.npmjs.com/about-npm/):
 
 ```bash
 npm install sourcemapify
@@ -99,6 +105,6 @@ Big Thanks To
 --------------------------
 Thanks to these awesome companies for their support of Open Source developers ❤
 
-[![Travis CI](https://jsdevtools.org/img/badges/travis-ci.svg)](https://travis-ci.com)
-[![SauceLabs](https://jsdevtools.org/img/badges/sauce-labs.svg)](https://saucelabs.com)
-[![Coveralls](https://jsdevtools.org/img/badges/coveralls.svg)](https://coveralls.io)
+[![Travis CI](https://jstools.dev/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://jstools.dev/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://jstools.dev/img/badges/coveralls.svg)](https://coveralls.io)
