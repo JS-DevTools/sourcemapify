@@ -8,8 +8,8 @@ Sourcemapify
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
 [![Dependencies](https://david-dm.org/JS-DevTools/sourcemapify.svg)](https://david-dm.org/JS-DevTools/sourcemapify)
 
-[![npm](https://img.shields.io/npm/v/sourcemapify.svg)](https://www.npmjs.com/package/sourcemapify)
-[![License](https://img.shields.io/npm/l/sourcemapify.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@jsdevtools/sourcemapify.svg)](https://www.npmjs.com/package/@jsdevtools/sourcemapify)
+[![License](https://img.shields.io/npm/l/@jsdevtools/sourcemapify.svg)](LICENSE)
 
 
 The default sourcemap that Browserify generates uses paths that are relative to the current directory, which may not always be what you want. This plugin lets you change the relative path, or use absolute paths.
@@ -35,7 +35,7 @@ Installation
 Install using [npm](https://docs.npmjs.com/about-npm/):
 
 ```bash
-npm install sourcemapify
+npm install @jsdevtools/sourcemapify
 ```
 
 
@@ -45,7 +45,7 @@ Usage
 Use Browserify's sub-argument command-line syntax, like this:
 
 ```bash
-browserify -p [ sourcemapify --root "../../" ] --debug
+browserify -p [ @jsdevtools/sourcemapify --root "../../" ] --debug
 ```
 
 ### Browserify API
@@ -53,7 +53,7 @@ Use the plugin programmatically like this:  [full example](test/api.js)
 
 ```javascript
 var browserify = require('browserify');
-var sourcemapify = require('sourcemapify');
+var sourcemapify = require('@jsdevtools/sourcemapify');
 
 browserify({debug: true})
   .plugin(sourcemapify, {base: 'www/js'})
@@ -89,7 +89,7 @@ To build the project locally on your computer:
 
 3. __Link the module to itself__ (so Browserify can find the plugin)<br>
 `npm link`<br>
-`npm link sourcemapify`
+`npm link @jsdevtools/sourcemapify`
 
 4. __Run the tests__<br>
 `npm test`
@@ -98,7 +98,7 @@ To build the project locally on your computer:
 
 License
 --------------------------
-sourcemapify is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+Sourcemapify is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
 
 
 Big Thanks To
