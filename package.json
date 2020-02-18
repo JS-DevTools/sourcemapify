@@ -24,12 +24,13 @@
     "lib"
   ],
   "scripts": {
+    "clean": "shx rm -rf .nyc_output coverage",
     "lint": "eslint lib test/fixtures test/specs",
     "test": "mocha && npm run lint",
-    "coverage": "nyc --reporter=text --reporter=lcov mocha",
-    "upgrade": "npm-check -u",
+    "coverage": "nyc node_modules/mocha/bin/mocha",
+    "upgrade": "npm-check -u && npm audit fix",
     "bump": "bump --tag --push --all",
-    "release": "npm run upgrade && npm run test && npm run bump"
+    "release": "npm run upgrade && npm run clean && npm test && npm run bump"
   },
   "devDependencies": {
     "@jsdevtools/eslint-config-modular": "^8.0.0",
