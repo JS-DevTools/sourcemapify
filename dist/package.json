@@ -1,0 +1,32 @@
+{
+  "name": "sourcemapify",
+  "version": "X.X.X",
+  "description": "Source Map plugin for Browserify",
+  "keywords": [
+    "browserify",
+    "browserify-plugin",
+    "sourcemap",
+    "source-map",
+    "source map"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "https://jamesmessinger.com"
+  },
+  "homepage": "https://jstools.dev/sourcemapify",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JS-DevTools/sourcemapify.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@jsdevtools/sourcemapify": "X.X.X"
+  }
+}
