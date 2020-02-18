@@ -1,9 +1,9 @@
-sourcemapify
+Sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/sourcemapify)
-[![Build Status](https://api.travis-ci.com/JS-DevTools/sourcemapify.svg?branch=master)](https://travis-ci.com/JS-DevTools/sourcemapify)
+[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/sourcemapify/blob/master/.github/workflows/CI-CD.yaml)
+[![Build Status](https://github.com/JS-DevTools/sourcemapify/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/sourcemapify/blob/master/.github/workflows/CI-CD.yaml)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
 [![Dependencies](https://david-dm.org/JS-DevTools/sourcemapify.svg)](https://david-dm.org/JS-DevTools/sourcemapify)
