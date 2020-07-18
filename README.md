@@ -2,8 +2,8 @@ Sourcemapify
 ============================
 #### source-map plugin for Browserify
 
-[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/sourcemapify/blob/master/.github/workflows/CI-CD.yaml)
-[![Build Status](https://github.com/JS-DevTools/sourcemapify/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/sourcemapify/blob/master/.github/workflows/CI-CD.yaml)
+[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/sourcemapify/actions)
+[![Build Status](https://github.com/JS-DevTools/sourcemapify/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/sourcemapify/actions)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/sourcemapify/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/sourcemapify?branch=master)
 [![Dependencies](https://david-dm.org/JS-DevTools/sourcemapify.svg)](https://david-dm.org/JS-DevTools/sourcemapify)
@@ -78,7 +78,7 @@ The base path of the bundle (i.e. the bundle file's directory, relative to cwd).
 
 Contributing
 --------------------------
-Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/JS-DevTools/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/sourcemapify/pulls).
+Contributions, enhancements, and bug-fixes are welcome!  [Open an issue](https://github.com/JS-DevTools/sourcemapify/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/sourcemapify/pulls).
 
 #### Building
 To build the project locally on your computer:
